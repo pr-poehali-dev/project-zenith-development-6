@@ -19,7 +19,13 @@ export default {
 		},
 		extend: {
 			fontFamily: {
-				sans: ['Montserrat', 'system-ui', '-apple-system', 'BlinkMacSystemFont', 'sans-serif'],
+				sans: ['Inter', 'system-ui', '-apple-system', 'BlinkMacSystemFont', 'sans-serif'],
+				serif: ['Cormorant Garamond', 'Georgia', 'serif'],
+			},
+			colors: {
+				'quantum-purple': '#0D0B1A',
+				'quantum-cyan': '#00F0FF',
+				'quantum-gold': '#D4AF37',
 			},
 			colors: {
 				border: 'hsl(var(--border))',

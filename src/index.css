@@ -1,11 +1,17 @@
+@import url("https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;1,300;1,400&family=Inter:wght@300;400;500;600&display=swap");
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
 @layer base {
   :root {
-    --background: 0 0% 100%;
-    --foreground: 222.2 84% 4.9%;
+    --background: 246 40% 8%;
+    --foreground: 0 0% 95%;
+
+    --quantum-purple: #0d0b1a;
+    --quantum-cyan: #00f0ff;
+    --quantum-gold: #d4af37;
 
     --card: 0 0% 100%;
     --card-foreground: 222.2 84% 4.9%;
@@ -97,6 +103,16 @@
 
   body {
     @apply bg-background text-foreground;
-    font-family: 'Montserrat', system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
+    font-family:
+      "Inter",
+      system-ui,
+      -apple-system,
+      BlinkMacSystemFont,
+      sans-serif;
+    background-color: #0d0b1a;
+  }
+
+  .font-serif-accent {
+    font-family: "Cormorant Garamond", Georgia, serif;
   }
 }
